@@ -32,7 +32,7 @@ const reply = async (ctx, next) => {
     ToUserName,
     FromUserName,
     timestamp: tools.genTimeStamp(),
-    replyText: '<a href="http://www.baidu.com">百度</a>'
+    replyText: '<a href="https://walter666.cn/">JSSDK</a>'
   })
 }
 
