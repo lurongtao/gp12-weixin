@@ -1,8 +1,16 @@
 const config = require('../config/')
 const tools = require('../utils/tools')
 const querystring = require('querystring')
+const db = require('../models/db')
 
 module.exports = async (ctx, next) => {
+  // 访问数据库
+  let result = await db.select(
+    'select * from token',
+    []
+  )
+  console.log(result)
+
   // 1、获取access_token
   let { appId, appsecret } = config
   let result_at = await tools.http({
