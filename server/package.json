@@ -5,7 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "async": "^3.1.0",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "content-type": "^1.0.4",
     "ejs": "^2.7.1",
     "koa": "^2.8.1",
